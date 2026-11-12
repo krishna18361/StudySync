@@ -1,7 +1,8 @@
 .venv
 venv
 __pycache__/
-*.pyc
+*.py[codz]
+*$py.class
 .env
 uploads/
 chroma_db/
@@ -11,6 +12,34 @@ dist/
 .DS_Store
 *.egg-info/
 .pytest_cache/
+
+# Python build and test artifacts
+*.so
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+*.egg
+MANIFEST
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+*.lcov
+.hypothesis/
+cover/
+.mypy_cache/
+.dmypy.json
+.pdm-python
+.pdm-build/
+.pixi/
+__pypackages__/
+.ipynb_checkpoints/
 
 # Local databases (may contain user data)
 *.db
