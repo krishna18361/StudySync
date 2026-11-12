@@ -1,0 +1,24 @@
+.venv
+venv
+__pycache__/
+*.pyc
+.env
+uploads/
+chroma_db/
+chroma_db_*/
+node_modules/
+dist/
+.DS_Store
+*.egg-info/
+.pytest_cache/
+
+# Local databases (may contain user data)
+*.db
+*.sqlite
+*.sqlite3
+
+# Compiled helper binary (rebuild from ocr_tool.swift)
+backend/ocr_tool
+
+# Stray lockfile (there is no root package.json)
+/package-lock.json
